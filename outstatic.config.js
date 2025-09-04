@@ -23,6 +23,6 @@ module.exports = {
     repoOwner: 'hugons',
     repoName: 'cloudsite',
     repoBranch: 'main',
-    contentPath: 'outstatic/content',
+    contentPath: 'content',
   },
 };
