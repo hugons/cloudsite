@@ -8,7 +8,7 @@ const IndexPage = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
           <h1>Welcome to our Next.js App!</h1>
-          <p>This is the home page.</p>
+          <p>Esta página é fantástica!</p>
   </div>
 );
 
