@@ -1,9 +1,9 @@
 module.exports = {
   content: {
     collections: {
-      pages: {
-        title: 'Pages',
-        folder: 'content/pages',
+      content: {
+        title: 'Content',
+        folder: '',
         fields: [
           {
             name: 'title',
@@ -23,6 +23,6 @@ module.exports = {
     repoOwner: 'hugons',
     repoName: 'cloudsite',
     repoBranch: 'main',
-    contentPath: 'content',
+    contentPath: 'outstatic/content',
   },
 };

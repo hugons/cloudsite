@@ -1,7 +1,7 @@
 import { getDocumentBySlug } from 'outstatic/server';
 
 export default async function AboutPage() {
-  const about = await getDocumentBySlug('pages', 'about', ['title', 'content']);
+  const about = await getDocumentBySlug('content', 'about', ['title', 'content']);
 
   if (!about) {
     return <div>Content not found</div>;
